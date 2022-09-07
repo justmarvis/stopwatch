@@ -1,0 +1,23 @@
+.stop {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #191970;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-stop {
+    display: none;
+}
+.check-stop:checked + .stop {
+    background-color: white;
+    color: red;
+}

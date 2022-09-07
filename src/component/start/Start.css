@@ -1,0 +1,26 @@
+.start {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #191970;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-strt {
+    display: none;
+}
+.check-strt:checked + .start {
+    background-color: white;
+    color: #191970;
+}
+.start-container {
+    margin-bottom: 50px;
+}
